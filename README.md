@@ -6,8 +6,10 @@ the number of unique words in the file, the most popular word in the text, etc.
 File name (for which you want to receive the statistics report),
 for example "Dickens' writings.txt"
 # Output
-File statistics report,
-for example:
+File statistics report,for example:
+
+
+
 ======File statistics report======
 1. num lines in file: 798
 2. num words in file: 7039
