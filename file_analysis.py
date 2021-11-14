@@ -98,13 +98,10 @@ class file_analysis():
                            "look", "first", "also",
                            "new", "because", "day", "more", "use", "no", "man", "find", "here", "is", "thing", "give",
                            "many", "well",
-                           "only", "those", "tell", "one", "for", "very", "her", "even", "back", "any", "good", "woman",
-                           "through",
-                           "us",
-                           "life",
-                           "child", "was", "are", "were", "i", "he", "she", "had", "there", "work", "down", "may",
+                           "only", "those", "tell", "one", "for", "very", "her", "even",  "any",
+                            "was", "are", "were", "i", "he", "she", "had", "there",  "may",
                            "after", "should",
-                           "call", "world", "over", "school", "still", "try", "in", "as", "last"]
+                           "call", "world", "over", "still", "try", "in", "as", "last"]
         for i in self._words_amountAppears:
             if self._words_amountAppears[the_most_popular_word] < self._words_amountAppears[i]:
                 the_most_popular_word = i
@@ -147,6 +144,7 @@ class file_analysis():
         print("\n  - The most popular characters in the text:", max(self._names_of_characters))
 
 
-name_file = "Dickens' writings.txt"
+# name_file = "Dickens' writings.txt"
+name_file=input("insert name file:")
 data_from_file = file_analysis(name_file)
 data_from_file.get_data()
