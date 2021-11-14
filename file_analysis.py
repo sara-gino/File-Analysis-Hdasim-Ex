@@ -113,6 +113,7 @@ class file_analysis():
     def get_data(self):
         self.extracting_data_from_file()
         num_lines = len(self._Lines)
+        print("======File statistics report======")
         print("1. num lines in file:", num_lines)
 
         print("2. num words in file:", self._num_words)
